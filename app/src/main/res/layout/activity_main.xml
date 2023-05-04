@@ -33,4 +33,30 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/text_view_hint" />
+
+    <RadioGroup
+        android:id="@+id/radioButtonGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioButtonGenderMale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Male" />
+
+        <RadioButton
+            android:id="@+id/radioButtonGenderFemale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Female" />
+    </RadioGroup>
+
+    <ToggleButton
+        android:id="@+id/toggleButtonEnabled"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:textOff="@string/disabled"
+        android:textOn="@string/enabled" />
 </LinearLayout>

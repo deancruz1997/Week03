@@ -3,4 +3,6 @@
     <string name="display">Display</string>
     <string name="enter_something">Enter something</string>
     <string name="text_view_hint">Display what the user enters</string>
+    <string name="disabled">Disabled</string>
+    <string name="enabled">Enabled</string>
 </resources>
