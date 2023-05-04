@@ -5,4 +5,6 @@
     <string name="text_view_hint">Display what the user enters</string>
     <string name="disabled">Disabled</string>
     <string name="enabled">Enabled</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
 </resources>
